@@ -88,9 +88,9 @@
   <script>
     var buildUrl = "Build";
     var config = {
-      dataUrl: buildUrl + "/Web.data.unityweb?v=20260822052136",
-      frameworkUrl: buildUrl + "/Web.framework.js.unityweb?v=20260822052136",
-      codeUrl: buildUrl + "/Web.wasm.unityweb?v=20260822052136",
+      dataUrl: buildUrl + "/Web.data.unityweb?v=20260822082803",
+      frameworkUrl: buildUrl + "/Web.framework.js.unityweb?v=20260822082803",
+      codeUrl: buildUrl + "/Web.wasm.unityweb?v=20260822082803",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Supercent",
       productName: "Glimmith",
@@ -110,7 +110,7 @@
     var boot = document.querySelector("#boot");
 
     var script = document.createElement("script");
-    script.src = buildUrl + "/Web.loader.js?v=20260822052136";
+    script.src = buildUrl + "/Web.loader.js?v=20260822082803";
     script.onerror = function () {
       config.showBanner("로더를 불러오지 못했습니다: " + script.src, "error");
     };
